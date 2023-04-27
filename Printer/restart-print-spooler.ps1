@@ -1,0 +1,1 @@
+Get-Service -Name spooler | Where-Object { $_.Status -ne 'Running' } | Start-Service
